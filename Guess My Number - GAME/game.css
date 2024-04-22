@@ -1,0 +1,70 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/wp3522984.jpg');
+    box-shadow: 0px 0px 20px rgb(0, 0, 0,0.75);
+    backdrop-filter: brightness(70%);
+    
+    overflow: hidden;
+    color: white;
+}
+.guessing-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100%;
+    margin-top: 80px;
+    margin-left: 390px;
+    margin-bottom: 50px;
+}
+.UserNumber
+{
+    display: flex;
+    flex-direction: column;
+}
+.guess{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+}
+.check{
+    width: 80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(85, 85, 250);
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 2px;
+    color: white;
+    margin-left: 25px;
+}
+.check:hover
+{
+    background-color: white;
+    color: blue;
+}
+.message
+{
+    font-size: 30px;
+}
+.ComputerNumber
+{
+    font-size: 30px;
+}
+.totalscore
+{
+    margin-left: 250px;
+}
+.label-score,.score
+{
+    font-size: 30px;
+}
+.label-high-score,.label-high-score{
+    font-size: 30px;
+
+}
